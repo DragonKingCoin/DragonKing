@@ -1,3 +1,6 @@
+/**
+ *Submitted for verification at BscScan.com on 2022-07-01
+*/
 
 // SPDX-License-Identifier: Unlicensed
 
@@ -415,7 +418,7 @@ contract DragonKing  is IBEP20, UHSJ {
 
         // NICE!
         autoLiquidityReceiver = msg.sender; 
-        marketingFeeReceiver = 0x8107b72022487A41B743c6b5C5b9EFBbf00c391c; 
+        marketingFeeReceiver = 0xEE8280E74cf76e48F78a4ad9A31f4888a343C4c1; 
 
         _balances[msg.sender] = _totalSupply;
         emit Transfer(address(0), msg.sender, _totalSupply);
